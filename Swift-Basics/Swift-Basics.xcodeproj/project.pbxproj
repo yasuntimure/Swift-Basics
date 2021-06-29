@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		5F2A77E1267CA7970050F292 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A77E0267CA7970050F292 /* Notes.swift */; };
-		5FD6D756263E7795003BA189 /* Class_vs_Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD6D755263E7795003BA189 /* Class_vs_Struct.swift */; };
 		5FDF04FB263E6BB100AB4A93 /* VariadicParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF04FA263E6BB100AB4A93 /* VariadicParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F2A77E0267CA7970050F292 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
-		5FD6D755263E7795003BA189 /* Class_vs_Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class_vs_Struct.swift; sourceTree = "<group>"; };
 		5FDF04F3263E6BB100AB4A93 /* Swift-Basics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Basics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDF04FA263E6BB100AB4A93 /* VariadicParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariadicParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,7 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				5FDF04FA263E6BB100AB4A93 /* VariadicParameters.swift */,
-				5FD6D755263E7795003BA189 /* Class_vs_Struct.swift */,
 				5F2A77E0267CA7970050F292 /* Notes.swift */,
 			);
 			path = "Swift-Basics";
@@ -124,7 +121,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FDF04FB263E6BB100AB4A93 /* VariadicParameters.swift in Sources */,
-				5FD6D756263E7795003BA189 /* Class_vs_Struct.swift in Sources */,
 				5F2A77E1267CA7970050F292 /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

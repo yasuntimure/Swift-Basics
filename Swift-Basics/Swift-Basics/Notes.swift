@@ -45,3 +45,24 @@ final class ExampleClass1: UIView {
 
 
 
+/* #warning and #error */
+// Example Usage:
+#warning("This is an example warning usage")
+#error("This is an example error usage")
+
+
+
+/*
+ CLASS VS STRUCT
+ 
+  CLASS:
+ Classes are reference type
+ Classes: When you change something in class this means you changed exact data and this effects all project.
+ Classes needs an initilaizer
+ 
+  STRUCT:
+ Structs are value type
+ When you change something in struct this means you changed copy of data and this does not effects all project.
+ Structs has default membership initializer therefore you do not need to do anything.
+ Structs does not have inheritance this makes them fast.
+ */
